@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: 'poppins' sans-serif;
+}
+
+h1{
+    color: white;
+    margin: 50px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+select {
+    
+    background-color: black;
+    padding: 5px;
+    margin: 50px;
+    font-size: 25px;
+    display: inline-block;
+    color: white;
+}
+
+#btn {
+ background-color:white; 
+  border: none;
+  color: black;
+  margin: 50px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px; 
+}
+
+button {
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+    font-weight: 600;
+}
+
+#lab1 {
+    color: #fff;
+    border: 2px solid white;
+    width: 30%;
+    margin: 50px;
+    padding: 10px 30px;
+    letter-spacing: .15rem;
+}
+
+@media screen and (max-width: 920px) {
+    #lab1 {
+
+        width: 50%;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #lab1 {
+
+        width: 90%;
+
+    }
+}
